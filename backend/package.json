@@ -1,0 +1,36 @@
+{
+  "name": "messenger-server",
+  "version": "1.0.0",
+  "description": "backend api for messenger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "messenger",
+    "chat",
+    "api",
+    "websocket",
+    "real_time"
+  ],
+  "author": "mohammad hossein tazaroie",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "ffmetadata": "^1.7.0",
+    "jsmediatags": "^3.9.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.5",
+    "music-metadata": "^7.11.7",
+    "mysql2": "^1.6.5",
+    "peer": "^0.6.1",
+    "plode-ffmetadata": "^1.5.0",
+    "sequelize": "^5.22.5"
+  }
+}

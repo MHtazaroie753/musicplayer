@@ -1,0 +1,19 @@
+.show-sub-menu {
+  overflow: hidden;
+  display: block !important;
+  height: auto;
+
+  animation: show-sub-menu 2s ease-in;
+}
+@keyframes show-sub-menu {
+  0% {
+    opacity: 1px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* .side-header-sub-menu {
+  height: 0;
+  transition: 1s;
+} */
